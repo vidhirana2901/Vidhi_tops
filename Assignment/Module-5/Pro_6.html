@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Navigation Bar Example</title>
+    <style>
+        body 
+		{
+            font-family: Arial, sans-serif;
+            margin: 0;
+			background-color: lightgreen;
+        }
+        nav 
+		{
+            background-color: red;
+        }
+        .navbar 
+		{
+			list-style-type:none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .navbar li 
+		{
+            border-right: 1px solid black;
+        }
+        .navbar li a 
+		{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px 24px;
+            text-decoration: none;
+        }
+        .navbar li a:hover 
+		{
+            background-color: #1abc9c;
+        }
+        @media screen and (max-width: 600px) 
+		{
+            .navbar 
+			{
+                flex-direction: column;
+            }
+            .navbar li 
+			{
+                border-right: none;
+                border-bottom: 1px solid #34495e;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <!-- You can swap <ul> for <ol> and it will look the same due to CSS -->
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div style="padding: 20px;">
+        <h2>CSS Navigation Bar</h2>
+        <p>This navbar uses <b>Flexbox</b> to align list items horizontally and removes default list styling using <code>list-style-type: none</code>.</p>
+    </div>
+
+</body>
+</html>
