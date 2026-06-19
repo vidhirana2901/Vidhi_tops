@@ -1,0 +1,27 @@
+{
+  "info": {
+    "_postman_id": "0dda3d36-5d5e-4842-9132-c8d6f75d6b23",
+    "name": "Movie_Ticket_Booking_API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "55690167",
+    "_collection_link": "https://go.postman.co/collection/55690167-0dda3d36-5d5e-4842-9132-c8d6f75d6b23?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "getAllMovies",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "AddMovie",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
