@@ -1,0 +1,17 @@
+Laravel Project Folder Overview
+
+1. app
+Purpose:
+The app folder contains the core application code. It mainly contains models, controllers, middleware, providers, and other PHP classes that handle the application's logic and functionality.
+
+2. routes
+Purpose:
+The routes folder contains the application's route definitions. It defines which URLs and HTTP requests should be handled by which controllers or functions. Common route files include web.php for web routes and api.php for API routes.
+
+3. config
+Purpose:
+The config folder contains configuration files for the Laravel application. These files define settings for services such as the database, mail, application, cache, session, and other Laravel features.
+
+4. resources
+Purpose:
+The resources folder contains files used to build the application's user interface. It mainly contains Blade view files, CSS, JavaScript, and other frontend resources. The views folder inside resources is commonly used for Laravel Blade templates.
