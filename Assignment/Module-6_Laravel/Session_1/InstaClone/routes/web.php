@@ -21,3 +21,8 @@ Route::get('/', function () {
 Route::get('/foodie', function () {
     return 'Welcome to Foodie App';
 });
+
+
+Route::get('/explore', function () {
+    return 'Welcome to Explore Page';
+});
