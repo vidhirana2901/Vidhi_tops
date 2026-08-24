@@ -26,3 +26,7 @@ Route::get('/foodie', function () {
 Route::get('/explore', function () {
     return 'Welcome to Explore Page';
 });
+
+Route::post('/playlist/add', function () {
+    return 'Song added to playlist.';
+});
