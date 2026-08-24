@@ -1,0 +1,81 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+	--restaurant-ink: #17212b;
+	--restaurant-coral: #e85d4a;
+	--restaurant-cream: #fff9f2;
+	--restaurant-sage: #557c70;
+}
+
+body {
+	background: var(--restaurant-cream);
+	color: var(--restaurant-ink);
+	font-family: Georgia, 'Times New Roman', serif;
+}
+
+.site-nav {
+	background: var(--restaurant-ink);
+}
+
+.brand-mark {
+	color: #fff;
+	letter-spacing: .04em;
+}
+
+.brand-mark span {
+	color: #f5a26d;
+}
+
+.hero-panel {
+	background: linear-gradient(120deg, #203a43, #557c70);
+	color: #fff;
+	border-radius: 1rem;
+}
+
+.menu-table {
+	--bs-table-bg: transparent;
+	vertical-align: middle;
+}
+
+.menu-table thead th {
+	color: var(--restaurant-sage);
+	font-family: system-ui, sans-serif;
+	font-size: .76rem;
+	letter-spacing: .12em;
+	text-transform: uppercase;
+}
+
+.menu-table tbody tr {
+	border-bottom: 1px solid #eadfd3;
+}
+
+.category-pill {
+	background: #e6f0eb;
+	color: #356156;
+	font-family: system-ui, sans-serif;
+	font-size: .78rem;
+}
+
+.price {
+	color: var(--restaurant-coral);
+	font-weight: 700;
+}
+
+.btn-coral {
+	background: var(--restaurant-coral);
+	border-color: var(--restaurant-coral);
+	color: #fff;
+}
+
+.btn-coral:hover,
+.btn-coral:focus {
+	background: #c94b3b;
+	border-color: #c94b3b;
+	color: #fff;
+}
+
+.content-card {
+	background: #fff;
+	border: 1px solid #eee3d7;
+	border-radius: .75rem;
+}
