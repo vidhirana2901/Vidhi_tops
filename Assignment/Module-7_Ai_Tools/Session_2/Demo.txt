@@ -1,0 +1,4 @@
+AI-generated code can contain mistakes or bugs, so it should always be tested before being used in a real project.
+Testing helps us find errors and make sure the code works correctly with different inputs.
+For example, in the login task, the AI-generated code had a bug where the username was compared with the password.
+After testing, we identified the problem and corrected the condition.

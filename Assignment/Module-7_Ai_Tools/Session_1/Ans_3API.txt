@@ -1,0 +1,2 @@
+Postman AI assisted me by generating the GET request URL and query parameter needed to fetch the user's playlists
+from the mock Spotify API.

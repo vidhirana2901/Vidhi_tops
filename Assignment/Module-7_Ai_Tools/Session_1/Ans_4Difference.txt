@@ -1,0 +1,3 @@
+Two differences
+Clarity: The first version uses a foreach loop, which is easier for beginners to understand step-by-step. The ChatGPT version uses array_filter() with an anonymous function, making it shorter but slightly more advanced.
+Approach: The first version manually creates and fills a $result array, while the ChatGPT version directly uses PHP's built-in array_filter() function to filter the products.
