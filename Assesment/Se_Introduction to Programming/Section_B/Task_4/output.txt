@@ -1,0 +1,48 @@
+﻿==============================================
+           PERSONAL EXPENSE LOGGER            
+==============================================
+
+------------------- MENU -------------------
+1. Add Expense
+2. View All Expenses
+3. Save & Exit
+--------------------------------------------
+Enter your choice (1-3): 
+--- Add New Expense (#1) ---
+Enter Expense Category (e.g., Food, Travel, Books): Enter Amount (INR): [SUCCESS]: Logged 'Books' of amount Rs. 450.50 successfully!
+
+------------------- MENU -------------------
+1. Add Expense
+2. View All Expenses
+3. Save & Exit
+--------------------------------------------
+Enter your choice (1-3): 
+--- Add New Expense (#2) ---
+Enter Expense Category (e.g., Food, Travel, Books): Enter Amount (INR): [SUCCESS]: Logged 'Travel' of amount Rs. 120.00 successfully!
+
+------------------- MENU -------------------
+1. Add Expense
+2. View All Expenses
+3. Save & Exit
+--------------------------------------------
+Enter your choice (1-3): 
+==============================================
+             LOGGED EXPENSES LIST             
+==============================================
+NO.    | CATEGORY                 | AMOUNT (Rs.)
+-------+--------------------------+-------------
+1      | Books                    |     450.50
+2      | Travel                   |     120.00
+-------+--------------------------+-------------
+TOTAL RUNNING EXPENSES            |     570.50
+==============================================
+
+------------------- MENU -------------------
+1. Add Expense
+2. View All Expenses
+3. Save & Exit
+--------------------------------------------
+Enter your choice (1-3): 
+Saving expense records to 'expenses.txt'...
+[SUCCESS]: 2 record(s) written to 'expenses.txt' successfully.
+Exiting Personal Expense Logger. Goodbye!

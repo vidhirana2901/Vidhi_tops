@@ -1,0 +1,18 @@
+================================================================================
+EXACT PROMPT SUBMITTED TO AI TOOL (STEP 1: BUILD WITH AI)
+================================================================================
+
+Tool Used: ChatGPT / Anthropic Claude
+Date     : September 2026
+
+Prompt:
+"Write a complete C console program that:
+1. Accepts exactly 10 integers from the user using a loop and stores them in an array.
+2. Finds and displays the maximum value, the minimum value, and the arithmetic mean 
+   (displayed as a float formatted to 2 decimal places).
+3. Sorts the array in ascending order using any sorting method and displays the sorted list.
+4. Calculates whether the arithmetic mean is closer to the minimum, closer to the maximum, 
+   or exactly midway between them, and prints the result.
+Please provide clean C code with comments."
+
+================================================================================

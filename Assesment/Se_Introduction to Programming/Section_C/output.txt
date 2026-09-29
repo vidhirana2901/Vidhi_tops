@@ -1,0 +1,97 @@
+=====================================================================
+              STUDENT PRODUCTIVITY TRACKER (CAPSTONE)                
+=====================================================================
+
+----------------------- MAIN MENU -----------------------
+  1. Log Today's Study Hours
+  2. View Weekly Report & Progress Chart
+  3. Save & Exit
+---------------------------------------------------------
+Enter your choice (1-3): 
+--- LOG STUDY HOURS ---
+Select Day of the Week (1 = Monday ... 7 = Sunday): 
+Logging study hours for Day 1:
+  Enter hours for [C Programming] (0.0 to 24.0):   Enter hours for [Web Development] (0.0 to 24.0):   Enter hours for [Database Systems] (0.0 to 24.0): [SUCCESS]: Study hours for Day 1 updated successfully!
+
+----------------------- MAIN MENU -----------------------
+  1. Log Today's Study Hours
+  2. View Weekly Report & Progress Chart
+  3. Save & Exit
+---------------------------------------------------------
+Enter your choice (1-3): 
+--- LOG STUDY HOURS ---
+Select Day of the Week (1 = Monday ... 7 = Sunday): 
+Logging study hours for Day 2:
+  Enter hours for [C Programming] (0.0 to 24.0):   Enter hours for [Web Development] (0.0 to 24.0):   Enter hours for [Database Systems] (0.0 to 24.0): [SUCCESS]: Study hours for Day 2 updated successfully!
+
+----------------------- MAIN MENU -----------------------
+  1. Log Today's Study Hours
+  2. View Weekly Report & Progress Chart
+  3. Save & Exit
+---------------------------------------------------------
+Enter your choice (1-3): 
+--- LOG STUDY HOURS ---
+Select Day of the Week (1 = Monday ... 7 = Sunday): 
+Logging study hours for Day 3:
+  Enter hours for [C Programming] (0.0 to 24.0):   Enter hours for [Web Development] (0.0 to 24.0):   Enter hours for [Database Systems] (0.0 to 24.0): [SUCCESS]: Study hours for Day 3 updated successfully!
+
+----------------------- MAIN MENU -----------------------
+  1. Log Today's Study Hours
+  2. View Weekly Report & Progress Chart
+  3. Save & Exit
+---------------------------------------------------------
+Enter your choice (1-3): 
+=====================================================================
+                      WEEKLY PRODUCTIVITY REPORT                     
+=====================================================================
+SUBJECT              | TOTAL HOURS  | DAILY AVG (7d) | STATUS        
+---------------------+--------------+----------------+---------------
+C Programming        |     12.50 hrs |      1.79 hrs/d | Needs Focus
+Web Development      |      9.50 hrs |      1.36 hrs/d | Needs Focus
+Database Systems     |      9.00 hrs |      1.29 hrs/d | Needs Focus
+---------------------+--------------+----------------+---------------
+GRAND TOTAL STUDY TIME: 31.00 hours across all subjects
+=====================================================================
+
+=====================================================================
+            TEXT-BASED STUDY PROGRESS CHART (* = 1 Hour)             
+=====================================================================
+
+[C Programming]
+  Day 1 (Mon)  [ 3.5 h] : ***
+  Day 2 (Tue)  [ 5.0 h] : *****
+  Day 3 (Wed)  [ 4.0 h] : ****
+  Day 4 (Thu)  [ 0.0 h] : -
+  Day 5 (Fri)  [ 0.0 h] : -
+  Day 6 (Sat)  [ 0.0 h] : -
+  Day 7 (Sun)  [ 0.0 h] : -
+
+[Web Development]
+  Day 1 (Mon)  [ 2.0 h] : **
+  Day 2 (Tue)  [ 3.5 h] : ***
+  Day 3 (Wed)  [ 4.0 h] : ****
+  Day 4 (Thu)  [ 0.0 h] : -
+  Day 5 (Fri)  [ 0.0 h] : -
+  Day 6 (Sat)  [ 0.0 h] : -
+  Day 7 (Sun)  [ 0.0 h] : -
+
+[Database Systems]
+  Day 1 (Mon)  [ 4.0 h] : ****
+  Day 2 (Tue)  [ 2.0 h] : **
+  Day 3 (Wed)  [ 3.0 h] : ***
+  Day 4 (Thu)  [ 0.0 h] : -
+  Day 5 (Fri)  [ 0.0 h] : -
+  Day 6 (Sat)  [ 0.0 h] : -
+  Day 7 (Sun)  [ 0.0 h] : -
+=====================================================================
+
+----------------------- MAIN MENU -----------------------
+  1. Log Today's Study Hours
+  2. View Weekly Report & Progress Chart
+  3. Save & Exit
+---------------------------------------------------------
+Enter your choice (1-3): 
+Saving productivity data to 'productivity_log.txt'...
+[SUCCESS]: 3 subject records saved successfully to 'productivity_log.txt'.
+
+Session completed successfully. Have a productive day!

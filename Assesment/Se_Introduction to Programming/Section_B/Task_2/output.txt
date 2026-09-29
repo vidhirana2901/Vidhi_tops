@@ -1,0 +1,25 @@
+﻿==============================================
+        WEEKLY STUDY HOURS ANALYSER           
+==============================================
+
+Please enter the study hours for each of the 7 days (0.0 to 24.0):
+
+Enter study hours for Day 1:   [!] Invalid entry (-5.00 hrs). Daily hours must be between 0.0 and 24.0.
+      Please try again.
+Enter study hours for Day 1: Enter study hours for Day 2: Enter study hours for Day 3: Enter study hours for Day 4: Enter study hours for Day 5: Enter study hours for Day 6: Enter study hours for Day 7: 
+==============================================
+             PERFORMANCE SUMMARY              
+==============================================
+Weekly Total Study Hours : 36.50 hours
+Daily Average Study Hours: 5.21 hours/day
+Peak Study Day           : Day 4 (8.00 hours)
+----------------------------------------------
+DAILY VISUAL STUDY BAR (* = 1 Hour Studied):
+Day 1: **** (4.5 hrs)
+Day 2: ****** (6.0 hrs)
+Day 3: *** (3.5 hrs)
+Day 4: ******** (8.0 hrs)
+Day 5: ***** (5.5 hrs)
+Day 6: ******* (7.0 hrs)
+Day 7: ** (2.0 hrs)
+==============================================

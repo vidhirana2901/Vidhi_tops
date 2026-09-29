@@ -1,0 +1,30 @@
+===============================================================
+                   STUDENT RECORD MANAGER                      
+===============================================================
+
+Please enter details for 3 students:
+
+--- Enter Details for Student 1 ---
+Roll Number: Student Name: Marks (0 - 100): 
+--- Enter Details for Student 2 ---
+Roll Number: Student Name: Marks (0 - 100): 
+--- Enter Details for Student 3 ---
+Roll Number: Student Name: Marks (0 - 100): 
+
+===============================================================
+                     STUDENT RECORDS TABLE                     
+===============================================================
+ROLL NO    | STUDENT NAME              | MARKS      | GRADE 
+-----------+---------------------------+------------+--------
+101        | Vidhi Rana                | 92.50      | A     
+102        | Rahul Sharma              | 78.00      | B     
+103        | Priya Patel               | 64.50      | C     
+===============================================================
+
+===============================================================
+                     TOP PERFORMER SUMMARY                     
+===============================================================
+Congratulations to Vidhi Rana (Roll No: 101)!
+Highest Score : 92.50 / 100
+Grade Achieved: A
+===============================================================

@@ -1,0 +1,25 @@
+=== TEST CASE A: ALL 10 IDENTICAL (5, 5, 5, 5, 5, 5, 5, 5, 5, 5) ===
+Minimum Value       : 5
+Maximum Value       : 5
+Sum of Elements     : 50
+Arithmetic Mean     : 5.00
+Sorted Array (Asc)  : 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+Mean Proximity Check: All 10 values are identical (5). The mean, min, and max coincide.
+--------------------------------------------------------------------------------
+=== TEST CASE B: MIX OF POSITIVE AND NEGATIVE (-50, -20, -10, 0, 10, 20, 30, 40, 50, 60) ===
+Minimum Value       : -50
+Maximum Value       : 60
+Sum of Elements     : 130
+Arithmetic Mean     : 13.00
+Sorted Array (Asc)  : -50, -20, -10, 0, 10, 20, 30, 40, 50, 60
+Mean Proximity Check: The mean (13.00) is CLOSER TO THE MAXIMUM (60).
+                      (Distance to max: 47.00 vs Distance to min: 63.00)
+--------------------------------------------------------------------------------
+=== TEST CASE C: MEAN FALLS EXACTLY BETWEEN MIN AND MAX (-10, -8, -6, -4, -2, 2, 4, 6, 8, 10) ===
+Minimum Value       : -10
+Maximum Value       : 10
+Sum of Elements     : 0
+Arithmetic Mean     : 0.00
+Sorted Array (Asc)  : -10, -8, -6, -4, -2, 2, 4, 6, 8, 10
+Mean Proximity Check: The mean (0.00) is EXACTLY MIDWAY between min (-10) and max (10).
+                      (Distance to min = 10.00, Distance to max = 10.00)

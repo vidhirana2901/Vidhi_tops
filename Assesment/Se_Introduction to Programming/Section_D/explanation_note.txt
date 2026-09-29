@@ -1,0 +1,9 @@
+================================================================================
+EXPLANATION NOTE: HUMAN CORRECTIONS & EDGE-CASE FIXES
+================================================================================
+
+1. Fixed Floating-Point Midway Bug: The AI's direct comparison (diff_min == diff_max) failed due to IEEE-754 precision rounding; I replaced it with an epsilon threshold (fabsf(diff_min - diff_max) < 1e-5f) so exact midways are reliably detected.
+2. Handled Identical Values Edge Case: When all 10 integers are identical, min equals max; the corrected code explicitly identifies that the mean, min, and max coincide rather than falsely printing arbitrary proximity.
+3. Negative Numbers & Input Hardening: Replaced raw subtraction with fabsf() for accurate distance logic on negative integers, and added input validation loops with buffer clearing to prevent infinite loops on invalid input.
+4. Algorithm Optimization: Replaced naive O(n^2) bubble sort with an early-exit swap flag to terminate early when the array is already sorted.
+================================================================================
