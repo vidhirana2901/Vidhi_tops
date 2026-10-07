@@ -1,0 +1,265 @@
+:root {
+    --primary-blue: #0B2545;
+    --dark-blue: #06172E;
+    --accent-orange: #E06D14;
+    --light-bg: #F4F6F9;
+    --card-border: #E2E8F0;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background-color: var(--light-bg);
+    color: #333;
+}
+
+/* Header & Utility Bar */
+.top-header-bar {
+    background-color: var(--dark-blue);
+    color: #fff;
+    font-size: 0.85rem;
+}
+
+.main-navbar {
+    background-color: #ffffff !important;
+    border-bottom: 2px solid var(--primary-blue);
+}
+
+.navbar-brand-img {
+    height: 52px;
+    width: auto;
+    object-fit: contain;
+}
+
+.nav-link {
+    color: var(--primary-blue) !important;
+    font-weight: 600;
+    margin: 0 5px;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--accent-orange) !important;
+}
+
+.btn-get-quote {
+    background-color: var(--primary-blue);
+    color: #fff !important;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 8px 20px;
+}
+
+.btn-get-quote:hover {
+    background-color: var(--accent-orange);
+}
+
+/* Hero Section */
+.hero-banner {
+    background: linear-gradient(90deg, rgba(11,37,69,0.92) 0%, rgba(11,37,69,0.7) 100%), 
+                url('https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1600&q=80');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 90px 0;
+}
+
+.hero-title {
+    font-size: 2.75rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.hero-title span {
+    color: var(--accent-orange);
+}
+
+.btn-orange {
+    background-color: var(--accent-orange);
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 4px;
+}
+
+.btn-orange:hover {
+    background-color: #c85e0e;
+    color: #fff;
+}
+
+.btn-outline-custom {
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 26px;
+    border-radius: 4px;
+}
+
+.btn-outline-custom:hover {
+    background-color: #fff;
+    color: var(--primary-blue);
+}
+
+/* Category Feature Cards (Overlapping style) */
+.category-card {
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid var(--card-border);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+.category-card-header {
+    background-color: var(--primary-blue);
+    color: #fff;
+    padding: 12px 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.category-card-img {
+    height: 160px;
+    width: 100%;
+    object-fit: contain;
+    padding: 15px;
+    background-color: #fff;
+}
+
+/* Brands Strip */
+.brand-box {
+    background: #fff;
+    border: 1px solid var(--card-border);
+    border-radius: 6px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70px;
+    font-weight: 700;
+    color: var(--primary-blue);
+}
+
+/* Footer Styling */
+footer {
+    background-color: var(--dark-blue);
+    color: #d1d5db;
+}
+
+footer h5, footer h6 {
+    color: #fff;
+}
+
+.whatsapp-float {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    bottom: 25px;
+    right: 25px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    z-index: 1000;
+    text-decoration: none;
+}
+/* Fixed Height Container for Product Images */
+.product-card-img-wrapper {
+    height: 200px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-bottom: 1px solid var(--card-border);
+}
+
+/* Ensure all images scale uniformly without distortion */
+.product-card-img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+/* ==========================================
+   Customer Feedback Card Styles
+   ========================================== */
+
+.feedback-card {
+    max-width: 500px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-card h2 {
+    color: #0B2545;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.feedback-card label {
+    display: block;
+    margin: 12px 0 6px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.feedback-card input, 
+.feedback-card select, 
+.feedback-card textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.feedback-card input:focus, 
+.feedback-card select:focus, 
+.feedback-card textarea:focus {
+    outline: none;
+    border-color: #0B2545;
+}
+
+.feedback-card button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background: #E06D14;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+.feedback-card button:hover {
+    background: #c85e0f;
+}
+
+.alert-success {
+    background: #d4edda;
+    color: #155724;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    border: 1px solid #c3e6cb;
+}
